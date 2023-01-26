@@ -5,15 +5,17 @@
   font-family: "Roboto", sans-serif;
 }
 body {
-  background-color: #1d2023;
-  overflow: hidden;
-  overflow-y: auto;
+  background: #1d2023;
+  overflow-x: hidden;
 }
 header {
+  position: absolute;
   background-color: #262b32;
   box-shadow: 0 4px rgba(0, 0, 0, 0.25);
   display: flex;
   height: 80px;
+  width: 100%;
+  margin: 0;
 }
 #Titulo-do-header {
   position: absolute;
@@ -30,48 +32,49 @@ header {
   cursor: pointer;
 }
 .padding_do_botao_home {
-  width: 1280px;
+  position: absolute;
+  width: 1216px;
   height: 80px;
   display: inline-block;
-  margin: 0 32px;
+  margin: 80px 32px 0 32px;
 }
 #Imagem-casa {
   margin: 27px 0 27px;
   cursor: pointer;
 }
 .botoes-imagens {
+  position: relative;
   margin: auto;
   width: 100%;
   height: 100%;
   text-align: right;
 }
-.Icones {
-  display: inline-block;
-  background-color: #30373e;
+button {
+  background: #30373e;
+  margin: 16px 16px 16px 0;
   border-radius: 8px;
   cursor: pointer;
 }
 .menu {
-  padding: 13px 10px 12.44px;
-  margin: 16px;
+  margin: 13px 10px;
   background: #30373e;
 }
 .energia {
-  padding: 7.5px 15px;
-  margin: 16px 0;
+  margin: 7.5px 15px;
   background: #30373e;
 }
+#botao_notificacao {
+  margin-right: 32px;
+}
 .notficacao {
-  padding: 9.75px 12px 9px;
-  margin: 16px 39px 16px 16px;
+  margin: 9.75px 12px 9px 12px;
   background: #30373e;
 }
 .lateral-esq {
   position: absolute;
   width: 228px;
   height: 529px;
-  margin: 0 23px 0 32px;
-  padding-bottom: 61px;
+  margin: 160px 1020px 61px 32px;
 }
 #Geracao {
   position: relative;
@@ -120,26 +123,24 @@ header {
 }
 #Mapa_do_dashboard {
   position: relative;
-  margin: 0 209px 0 285px;
-  padding: 0 23px;
+  margin: 160px 232px 62px 308px;
+  padding: 0 23px 0 24.5px;
   border: solid #30373e;
   border-width: 0 2px;
 }
-.lateral-dir-titulo {
-  position: absolute;
-  margin: 0 0 0 1064px;
-  font-size: 24px;
-}
-#Municipios {
-  color: rgba(255, 255, 255, 0.3);
-}
-.lateral-dir-corpo {
+.lateral-dir {
   position: absolute;
   width: 152px;
   height: 326px;
+  margin: 208px 32px 216px 1143.1px;
   background: #262b32;
   border-radius: 5px;
-  margin: 21px 32px 0 0;
+}
+#Municipios {
+  position: absolute;
+  margin: 159px 65px 563px 1143.1px;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.3);
 }
 .caixa-info-dir {
   position: relative;
