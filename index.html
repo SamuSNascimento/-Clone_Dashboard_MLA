@@ -1,96 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title>
 
-    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
 
-  <body>
-
-    <header>
-      <img id="Imagem-mla" src="./assets/image/Logo_MLA.png" title="Início"/>
-      <div class="botoes-imagens">
-        <button>
-        <img class="menu"src="./assets/image/Icone_do_menu.png" title="Menu"/>
-      </button>
-      <button> 
-        <img class="energia"src="./assets/image/Icone_de_energia.png" title="Energia"/>
-      </button>
-        <button id="botao_notificacao">
-        <img class="notficacao"src="./assets/image/Icone_de_notficacao.png" title="Notificação"/>
-      </button>
+  <body id="body">
+    <header id="header">
+      <img class="image-mla" src="./assets/image/Logo_MLA.png" title="Início" />
+      <hr class="header-divider" />
+      <p class="header-title">Mais Luz para a Amazônia</p>
+      <div class="buttons">
+        <button class="button">
+          <img
+            class="menu"
+            src="./assets/image/Icone_do_menu.png"
+            title="Menu"
+          />
+        </button>
+        <button class="button">
+          <img
+            class="energy"
+            src="./assets/image/Icone_de_energia.png"
+            title="Energia"
+          />
+        </button>
+        <button class="button">
+          <img
+            class="notification"
+            src="./assets/image/Icone_de_notficacao.png"
+            title="Notificação"
+          />
+        </button>
       </div>
-      <p id="Titulo-do-header">Mais Luz para a Amazônia</p>
     </header>
 
-    <div class="padding_do_botao_home">
-      <img id="Imagem-casa" src="./assets/image/Icone_de_home.png" title="Início"/>
-    </div>
-    <p id="Municipios">Múnicipios</p>
-     <div class="lateral-dir">
-          <div class="caixa-info-dir">
-              <p class="nomes_das_localidades">Beruri</p>
-            </div>
-            <div id="caixa-info-Santa-isabel">
-            <p class="nomes_das_localidades" >Santa Isabel do Rio Negro</p>
-          </div>
-          <div class="caixa-info-dir">
-          <p class="nomes_das_localidades">Canutama</p>
-        </div>
-        <div class="caixa-info-dir">
-            <p class="nomes_das_localidades" >Lábrea</p>
-          </div>
-          <div class="caixa-info-dir">
-              <p class="nomes_das_localidades">Manaus</p>
-          </div>
-          <div class="caixa-info-dir">
-                <p class="nomes_das_localidades">Pauini</p>
-              </div>
-              <div class="caixa-info-dir">
-                  <p class="nomes_das_localidades">Tapauá</p>
-                </div>
-        
-      </div>
-      <div class="lateral-esq">
-      <p id="Geracao">
+    <img
+      class="house-icon"
+      src="./assets/image/Icone_de_home.png"
+      title="Início"
+    />
+
+    <div class="left-side-menu">
+      <p class="word-generation">
         <b>Geração</b>
-        <div class="caixa-info">
-            <p class="contagem-de-tempo">Últimas 24h</p>
-            <p class="valoes">
-              <b>504,7</b>
-            </p>
-            <p class="unidade_de_medida">MWh</p>
-        </div>
-        <div class="caixa-info">
-          <p class="contagem-de-tempo">Últimos 30d</p>
-          <p class="valoes">
-            <b>3,4</b>
-          </p>
-          <p class="unidade_de_medida_2">GWh</p>
-      </div>
       </p>
-     <p id="Consumo">
+      <div class="information-box">
+        <p class="time-count">Últimas 24h</p>
+        <p class="values">
+          <b>504,7</b>
+          <span class="unit-of-measurement">MWh</span>
+        </p>
+      </div>
+      <div class="information-box">
+        <p class="time-count">Últimos 30d</p>
+        <p class="values">
+          <b>3,4</b>
+          <span class="unit-of-measurement-2">GWh</span>
+        </p>
+      </div>
+      <p class="word-consumption">
         <b>Consumo</b>
-        <div class="caixa-info">
-            <p class="contagem-de-tempo">Últimas 24h</p>
-            <p class="valoes">
-              <b>471,1</b>
-            </p>
-            <p class="unidade_de_medida">MWh</p>
-        </div>
-        <div class="caixa-info">
-          <p class="contagem-de-tempo">Últimos 30d</p>
-          <p class="valoes">
-            <b>3,1</b>
-          </p>
-          <p class="unidade_de_medida_2">GWh</p>
-      </div>
       </p>
+      <div class="information-box">
+        <p class="time-count">Últimas 24h</p>
+        <p class="values">
+          <b>471,1</b>
+          <span class="unit-of-measurement">MWh</span>
+        </p>
+      </div>
+      <div class="information-box">
+        <p class="time-count">Últimos 30d</p>
+        <p class="values">
+          <b>3,1</b>
+          <span class="unit-of-measurement-2">GWh</span>
+        </p>
+      </div>
     </div>
-    <img id="Mapa_do_dashboard" src="./assets/image/Mapa.png" >
+
+    <!--<p class="counties">Múnicipios</p>
+
+     <div class="right-side-menu">
+        <div class="option-box">
+            <p class="locality-name">Beruri</p>
+          </div>
+            <div class="option-box-santa-isabel">
+             <p class="locality-name" >Santa Isabel do Rio Negro</p>
+            </div>
+          <div class="option-box">
+           <p class="locality-name">Canutama</p>
+         </div>
+        <div class="option-box">
+            <p class="locality-name" >Lábrea</p>
+       </div>
+     <div class="option-box">
+         <p class="locality-name">Manaus</p>
+   </div>
+     <div class="option-box">
+        <p class="locality-name">Pauini</p>
+      </div>
+         <div class="option-box">
+            <p class="locality-name">Tapauá</p>
+          </div>
+      </div>
+
+      <img class="dashboard-map" src="./assets/image/Mapa.png" >
+  
+  </body>
+</html>-->
   </body>
 </html>
