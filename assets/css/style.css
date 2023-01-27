@@ -4,12 +4,11 @@
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
-body {
+#body {
   background: #1d2023;
   overflow-x: hidden;
 }
-header {
-  position: absolute;
+#header {
   background-color: #262b32;
   box-shadow: 0 4px rgba(0, 0, 0, 0.25);
   display: flex;
@@ -17,132 +16,103 @@ header {
   width: 100%;
   margin: 0;
 }
-#Titulo-do-header {
-  position: absolute;
-  left: 137px;
-  top: 19px;
-  font-size: 38px;
-  color: rgba(255, 255, 255, 0.3);
-  border: solid #3e4750;
-  border-width: 0px 0px 0px 2px;
-  padding: 3px 0 3px 24px;
-}
-#Imagem-mla {
+.image-mla {
   margin: 5px 18px 5px 16px;
   cursor: pointer;
 }
-.padding_do_botao_home {
-  position: absolute;
-  width: 1216px;
-  height: 80px;
-  display: inline-block;
-  margin: 80px 32px 0 32px;
+.header-divider {
+  width: 0;
+  height: 48px;
+  border: 2px solid #3e4750;
+  margin: 16px 0 16px;
 }
-#Imagem-casa {
-  margin: 27px 0 27px;
-  cursor: pointer;
+.header-title {
+  margin: 19px 0 19px 24px;
+  font-size: 38px;
+  color: rgba(255, 255, 255, 0.3);
 }
-.botoes-imagens {
-  position: relative;
-  margin: auto;
-  width: 100%;
-  height: 100%;
-  text-align: right;
+.buttons {
+  margin: 0 16px 0 auto;
 }
-button {
+.button {
   background: #30373e;
   margin: 16px 16px 16px 0;
   border-radius: 8px;
   cursor: pointer;
 }
 .menu {
-  margin: 13px 10px;
-  background: #30373e;
+  margin: 13px 10px 12.44px;
 }
-.energia {
+.energy {
   margin: 7.5px 15px;
-  background: #30373e;
 }
-#botao_notificacao {
-  margin-right: 32px;
-}
-.notficacao {
+.notification {
   margin: 9.75px 12px 9px 12px;
-  background: #30373e;
 }
-.lateral-esq {
-  position: absolute;
+.house-icon {
+  margin: 27px 0 27px 32px;
+  cursor: pointer;
+}
+.left-side-menu {
   width: 228px;
   height: 529px;
-  margin: 160px 1020px 61px 32px;
+  margin: 0 0 61px 32px;
 }
-#Geracao {
-  position: relative;
-  margin: 0;
+.word-generation {
   font-size: 20px;
   color: rgba(255, 255, 255, 0.6);
 }
-.caixa-info {
-  position: relative;
+.information-box {
   width: 228px;
   height: 98px;
   border-radius: 6px;
   background: #30373e;
   margin-top: 16px;
 }
-.contagem-de-tempo {
+.time-count {
   color: rgba(255, 255, 255, 0.3);
   font-size: 16px;
-  position: absolute;
-  margin-left: 22px;
-  margin-top: 19px;
+  margin: 19px 0 0 22px;
+  display: inline-block;
 }
-.valoes {
-  position: absolute;
-  margin: 42px 114px 14px 22px;
+.values {
   color: rgba(221, 221, 221, 0.87);
   font-size: 36px;
+  margin: 4px 0 14px 22px;
 }
-.unidade_de_medida {
-  position: absolute;
-  margin: 56px 43px 14px 122px;
+.unit-of-measurement {
   font-size: 24px;
   color: rgba(255, 255, 255, 0.6);
 }
-.unidade_de_medida_2 {
-  position: absolute;
-  margin: 56px 84px 14px 81px;
+.unit-of-measurement-2 {
   font-size: 24px;
   color: rgba(255, 255, 255, 0.6);
 }
-#Consumo {
-  position: relative;
+.word-consumption {
   margin-top: 26px;
   font-size: 20px;
   color: rgba(255, 255, 255, 0.6);
 }
-#Mapa_do_dashboard {
+/*.dashboard-map {
   position: relative;
   margin: 160px 232px 62px 308px;
   padding: 0 23px 0 24.5px;
   border: solid #30373e;
   border-width: 0 2px;
 }
-.lateral-dir {
-  position: absolute;
+.right-side-menu {
   width: 152px;
   height: 326px;
   margin: 208px 32px 216px 1143.1px;
   background: #262b32;
   border-radius: 5px;
 }
-#Municipios {
-  position: absolute;
+.counties {
   margin: 159px 65px 563px 1143.1px;
   font-size: 24px;
   color: rgba(255, 255, 255, 0.3);
 }
-.caixa-info-dir {
+.option-box {
   position: relative;
   width: 120px;
   height: 26px;
@@ -150,7 +120,7 @@ button {
   border-radius: 5px;
   margin: 12px 16px 16px 16px;
 }
-#caixa-info-Santa-isabel {
+.option-box-santa-isabel {
   position: relative;
   width: 120px;
   height: 40px;
@@ -158,10 +128,10 @@ button {
   border-radius: 5px;
   margin: 18px 16px 16px 16px;
 }
-.nomes_das_localidades {
+.locality-name {
   text-align: center;
   color: #ffffff;
   font-size: 12px;
   padding-top: 6px;
   cursor: pointer;
-}
+}*/
