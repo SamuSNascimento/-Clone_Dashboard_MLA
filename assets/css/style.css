@@ -13,17 +13,18 @@
   box-shadow: 0 4px rgba(0, 0, 0, 0.25);
   display: flex;
   height: 80px;
-  width: 100%;
-  margin: 0;
+}
+.divider {
+  border: 2px solid #3e4750;
+}
+.cursor {
+  cursor: pointer;
 }
 .image-mla {
   margin: 5px 18px 5px 16px;
-  cursor: pointer;
 }
 .header-divider {
-  width: 0;
   height: 48px;
-  border: 2px solid #3e4750;
   margin: 16px 0 16px;
 }
 .header-title {
@@ -38,27 +39,21 @@
   background: #30373e;
   margin: 16px 16px 16px 0;
   border-radius: 8px;
-  cursor: pointer;
 }
-.menu {
-  margin: 13px 10px 12.44px;
-}
-.energy {
-  margin: 7.5px 15px;
-}
-.notification {
-  margin: 9.75px 12px 9px 12px;
+.padding-house-icon {
+  margin: 0 32px 0 32px;
 }
 .house-icon {
-  margin: 27px 0 27px 32px;
-  cursor: pointer;
+  margin: 27px 0;
+}
+.body-bottom {
+  display: flex;
 }
 .left-side-menu {
-  width: 228px;
-  height: 529px;
+  display: inline-block;
   margin: 0 0 61px 32px;
 }
-.word-generation {
+.data-type {
   font-size: 20px;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -84,36 +79,24 @@
   font-size: 24px;
   color: rgba(255, 255, 255, 0.6);
 }
-.unit-of-measurement-2 {
-  font-size: 24px;
-  color: rgba(255, 255, 255, 0.6);
-}
 .word-consumption {
   margin-top: 26px;
-  font-size: 20px;
-  color: rgba(255, 255, 255, 0.6);
 }
-/*.dashboard-map {
-  position: relative;
-  margin: 160px 232px 62px 308px;
-  padding: 0 23px 0 24.5px;
-  border: solid #30373e;
-  border-width: 0 2px;
-}
-.right-side-menu {
-  width: 152px;
-  height: 326px;
-  margin: 208px 32px 216px 1143.1px;
-  background: #262b32;
-  border-radius: 5px;
+.dashboard-map-divider {
+  margin: 0 24.05px 62px 23px;
 }
 .counties {
-  margin: 159px 65px 563px 1143.1px;
   font-size: 24px;
   color: rgba(255, 255, 255, 0.3);
 }
+.right-side-menu {
+  height: 326px;
+  background: #262b32;
+  border-radius: 5px;
+  margin: 21px 32px 0 0;
+  display: inline-block;
+}
 .option-box {
-  position: relative;
   width: 120px;
   height: 26px;
   background: #30373e;
@@ -121,17 +104,15 @@
   margin: 12px 16px 16px 16px;
 }
 .option-box-santa-isabel {
-  position: relative;
   width: 120px;
   height: 40px;
   background: #30373e;
   border-radius: 5px;
-  margin: 18px 16px 16px 16px;
+  margin: 12px 16px 0 16px;
 }
 .locality-name {
   text-align: center;
   color: #ffffff;
   font-size: 12px;
   padding-top: 6px;
-  cursor: pointer;
-}*/
+}
