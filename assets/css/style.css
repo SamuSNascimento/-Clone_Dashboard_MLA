@@ -39,11 +39,8 @@
   margin: 16px 16px 16px 0;
   border-radius: 8px;
 }
-.padding-house-icon {
-  margin: 0 63px;
-}
 .house-icon {
-  margin: 27px 0;
+  margin: 27px 63px;
 }
 .container {
   display: flex;
