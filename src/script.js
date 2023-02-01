@@ -1,5 +1,5 @@
-function description(n1){
-    alert("Você selecionou "+ n1);
-    console.log(n1);
+function description(value){
+    alert("Você selecionou "+ value);
+    console.log(value);
 }
 
