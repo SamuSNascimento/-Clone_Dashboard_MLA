@@ -19,6 +19,7 @@
         class="point image-mla"
         src="./assets/image/Logo_MLA.png"
         title="Início"
+        style="margin: 5px 18px"
       />
       <hr class="divider header-divider" />
       <p class="header-title">Mais Luz para a Amazônia</p>
@@ -58,119 +59,121 @@
         </button>
       </div>
     </header>
-    <div class="padding-house-icon">
-      <img
-        onclick="description(title)"
-        class="point house-icon"
-        src="./assets/image/Icone_de_home.png"
-        title="Início"
-      />
-    </div>
     <div class="container">
-      <div class="left-side-menu">
-        <p class="data-type">
-          <b>Geração</b>
-        </p>
-        <div class="background-color-30373e information-box">
-          <p class="time-count">Últimas 24h</p>
-          <p class="values">
-            <b>504,7</b>
-            <span class="unit-of-measurement">MWh</span>
-          </p>
-        </div>
-        <div class="background-color-30373e information-box">
-          <p class="time-count">Últimos 30d</p>
-          <p class="values">
-            <b>3,4</b>
-            <span class="unit-of-measurement">GWh</span>
-          </p>
-        </div>
-        <p class="data-type word-consumption">
-          <b>Consumo</b>
-        </p>
-        <div class="background-color-30373e information-box">
-          <p class="time-count">Últimas 24h</p>
-          <p class="values">
-            <b>471,1</b>
-            <span class="unit-of-measurement">MWh</span>
-          </p>
-        </div>
-        <div class="background-color-30373e information-box">
-          <p class="time-count">Últimos 30d</p>
-          <p class="values">
-            <b>3,1</b>
-            <span class="unit-of-measurement">GWh</span>
-          </p>
-        </div>
+      <div class="padding-house-icon">
+        <img
+          onclick="description(title)"
+          class="point house-icon"
+          src="./assets/image/Icone_de_home.png"
+          title="Início"
+        />
       </div>
-      <hr class="divider dashboard-map-divider" />
-      <img class="dashboard-map" src="./assets/image/Mapa.png" />
-      <hr class="divider dashboard-map-divider" />
-      <div>
-        <p class="counties"><b>Múnicipios</b></p>
-        <div class="right-side-menu">
-          <div class="background-color-30373e point option-box">
-            <p
-              class="locality-name"
-              title="Beruri"
-              onclick="description(title)"
-            >
-              Beruri
+      <div class="flex-box">
+        <div class="left-side-menu">
+          <p class="data-type">
+            <b>Geração</b>
+          </p>
+          <div class="background-color-30373e information-box">
+            <p class="time-count">Últimas 24h</p>
+            <p class="values">
+              <b>504,7</b>
+              <span class="unit-of-measurement">MWh</span>
             </p>
           </div>
-          <div class="background-color-30373e point option-box">
-            <p
-              class="locality-name"
-              title="Santa Isabel do Rio Negro"
-              onclick="description(title)"
-            >
-              Santa Isabel do Rio Negro
+          <div class="background-color-30373e information-box">
+            <p class="time-count">Últimos 30d</p>
+            <p class="values">
+              <b>3,4</b>
+              <span class="unit-of-measurement">GWh</span>
             </p>
           </div>
-          <div class="background-color-30373e point option-box">
-            <p
-              class="locality-name"
-              title="Canutama"
-              onclick="description(title)"
-            >
-              Canutama
+          <p class="data-type word-consumption">
+            <b>Consumo</b>
+          </p>
+          <div class="background-color-30373e information-box">
+            <p class="time-count">Últimas 24h</p>
+            <p class="values">
+              <b>471,1</b>
+              <span class="unit-of-measurement">MWh</span>
             </p>
           </div>
-          <div class="background-color-30373e point option-box">
-            <p
-              class="locality-name"
-              title="Lábrea"
-              onclick="description(title)"
-            >
-              Lábrea
+          <div class="background-color-30373e information-box">
+            <p class="time-count">Últimos 30d</p>
+            <p class="values">
+              <b>3,1</b>
+              <span class="unit-of-measurement">GWh</span>
             </p>
           </div>
-          <div class="background-color-30373e point option-box">
-            <p
-              class="locality-name"
-              title="Manaus"
-              onclick="description(title)"
-            >
-              Manaus
-            </p>
-          </div>
-          <div class="background-color-30373e point option-box">
-            <p
-              class="locality-name"
-              title="Pauini"
-              onclick="description(title)"
-            >
-              Pauini
-            </p>
-          </div>
-          <div class="background-color-30373e point option-box">
-            <p
-              class="locality-name"
-              title="Tapauá"
-              onclick="description(title)"
-            >
-              Tapauá
-            </p>
+        </div>
+        <hr class="divider dashboard-map-divider" />
+        <img class="dashboard-map" src="./assets/image/Mapa.png" />
+        <hr class="divider dashboard-map-divider" />
+        <div>
+          <p class="counties"><b>Múnicipios</b></p>
+          <div class="right-side-menu">
+            <div class="background-color-30373e point option-box">
+              <p
+                class="locality-name"
+                title="Beruri"
+                onclick="description(title)"
+              >
+                Beruri
+              </p>
+            </div>
+            <div class="background-color-30373e point option-box">
+              <p
+                class="locality-name"
+                title="Santa Isabel do Rio Negro"
+                onclick="description(title)"
+              >
+                Santa Isabel do Rio Negro
+              </p>
+            </div>
+            <div class="background-color-30373e point option-box">
+              <p
+                class="locality-name"
+                title="Canutama"
+                onclick="description(title)"
+              >
+                Canutama
+              </p>
+            </div>
+            <div class="background-color-30373e point option-box">
+              <p
+                class="locality-name"
+                title="Lábrea"
+                onclick="description(title)"
+              >
+                Lábrea
+              </p>
+            </div>
+            <div class="background-color-30373e point option-box">
+              <p
+                class="locality-name"
+                title="Manaus"
+                onclick="description(title)"
+              >
+                Manaus
+              </p>
+            </div>
+            <div class="background-color-30373e point option-box">
+              <p
+                class="locality-name"
+                title="Pauini"
+                onclick="description(title)"
+              >
+                Pauini
+              </p>
+            </div>
+            <div class="background-color-30373e point option-box">
+              <p
+                class="locality-name"
+                title="Tapauá"
+                onclick="description(title)"
+              >
+                Tapauá
+              </p>
+            </div>
           </div>
         </div>
       </div>
